@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'AvenirStd';
+    src: url("../fonts/AvenirLTStd-Roman.otf") format('OpenType');
+}
+
+@font-face {
+    font-family: 'Arca';
+    src: url("../fonts/ArcaMajora3-Bold.otf") format('OpenType');
+}
+
+@font-face {
+    font-family: 'ltc';
+    src: url("../fonts/ltc-twentieth-century-w00.ttf") format('TrueType');
+}
+
+:root{
+	--color-morado:#53266E;
+	--color-blanco:#FDFFFF;
+	--color-negro:#020402;
+	--color-verde:#64B661;
+	--color-azul:#76949F;
+}
+
+body{
+	color:var(--color-negro);
+	font-family: 'AvenirStd';
+	font-size: 14px;
+}
+
+.titulo1{
+	font-family: 'Arca';
+	color: var(--color-morado);
+	font-size: 40px;
+	text-align: center;	
+}
+
+.titulo2{
+	font-family: 'Arca';
+	color: var(--color-blanco);
+}
+
+.titulo3{
+	font-family: 'Arca';
+	color: var(--color-blanco);
+	font-size: 16px;
+}
+
+.titulo4{
+	color: var(--color-verde);
+	font-family: 'Arca';
+}
+
+
+header{
+	background-color: var(--color-morado);
+	color: var(--color-blanco);
+	text-align: center;
+	padding: 2% 0 0 0;
+}
+
+header h1{
+	font-size: 25px;
+	padding: 3px 0;
+	font-family: 'Arca';
+}
+
+hr{
+	margin: 0 30%;
+	border: 2px solid;
+}
+
+.navbar{
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+	background-color: var(--color-morado);
+}
+
+.navbar ul{
+	width: auto;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-link{
+	color: var(--color-blanco);
+}
+
+.nav-link:hover{
+	background-color: var(--color-azul);
+	color: var(--color-blanco);
+}
+
+nav .active{
+	background-color: var(--color-verde);
+}
+
+header img{
+	height: 80px;
+}
+
+#intro{
+	padding: 1% 0;
+	text-align: center;
+	color: var(--color-negro);
+}
+
+#intro h2{
+	color: var(--color-verde);
+	margin: 35% 20% 0 20%;
+	font-family: 'Arca';
+}
+
+#intro p{
+	margin: 5% 20% 0 20%;
+}
+
+
+#hero{
+	background-image: url("../img/full-2.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 10% 0;
+	color:var(--color-moradoo);
+	height: 200px;
+}
+
+#hero h1,
+#hero-slides h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	color:var(--color-morado);
+}
+#hero h3,
+#hero-slides h3{
+	font-size: 24px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:var(--color-morado);
+}
+
+#hero .btn-light,
+#hero-slides .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: var(--color-morado);
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 180px;
+}
+#hero .btn-light:hover,
+#hero-slides .btn-light:hover{
+	background-color: var(--color-morado);
+	color: var(--color-blanco);
+	border-color: var(--color-morado);
+}
+
+#mision{
+	padding: 5% 0;
+	text-align: center;
+	color: var(--color-blanco);
+	background-color: var(--color-morado);
+}
+
+#mision h2{
+	margin: 35% 20% 0 20%;
+}
+
+#mision p{
+	margin: 5% 20% 0 20%;
+}
+
+#vision{
+	padding: 1% 0;
+	text-align: center;
+	color: var(--color-blanco);
+	background-color: var(--color-morado);
+}
+
+#vision h2{
+	margin: 35% 20% 0 20%;
+}
+
+#vision p{
+	margin: 5% 20% 0 20%;
+}
+
+#servicios{
+	padding: 10% 0;
+	text-align: center;
+	color: var(--color-blanco);
+	background-color: var(--color-morado);
+}
+
+#servicios p{
+	padding: 0 0 30px 0;
+}
+
+#servicios .titulo3{
+	padding: 25px 0 0 0;
+}
+
+#contacto{
+	padding: 5% 0;
+	text-align:left;
+	color: var(--color-blanco);
+	background-color: var(--color-morado);
+}
+
+.lista-contacto i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color: var(--color-morado);
+	text-align: center;
+	display: inline-block;
+	background-color: var(--color-blanco);
+	font-size: 22px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+#contacto .btn{
+	background-color: var(--color-verde);
+}
+
+footer{
+	padding: 2% 0 0 0;
+	text-align:center;
+	color: var(--color-blanco);
+	background-color: var(--color-azul);
+}
+
+footer ul{
+	display: inline-flex;
+}
+
+footer li{
+	margin: 0 10px;
+}
+
+footer i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	color: var(--color-blanco);
+	text-align: center;
+	display: inline-block;
+	font-size: 22px;
+}
+
+#quienes{
+	padding: 5% 0;
+}
