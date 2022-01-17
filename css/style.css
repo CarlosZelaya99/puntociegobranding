@@ -122,8 +122,16 @@ header img{
 	background-position: top center;
 	background-size: cover;
 	padding: 10% 0;
-	color:var(--color-moradoo);
+	color:var(--color-morado);
 	height: 200px;
+}
+
+#hero2{
+	background-image: url("../img/banner camaleon verde-05.png");
+	background-position: center;
+	background-size: cover;
+	padding: 10% 0;
+	color:var(--color-morado);
 }
 
 #hero h1,
@@ -217,19 +225,11 @@ header img{
 	margin: 5% 20% 0 20%;
 }
 
-#mision img{
-	height: 500px;
-}
-
-#vision img{
-	height: 500px;
-}
-
 #servicios{
-	padding: 10% 0;
+	padding: 10% 0 0 0;
 	text-align: center;
-	color: var(--color-blanco);
-	background-color: var(--color-morado);
+	color: var(--color-negro);
+	background-color: var(--color-blanco);
 }
 
 #servicios p{
