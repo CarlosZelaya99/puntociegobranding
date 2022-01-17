@@ -36,7 +36,7 @@ body{
 
 .titulo2{
 	font-family: 'Arca';
-	color: var(--color-blanco);
+	color: var(--color-verde);
 }
 
 .titulo3{
@@ -118,7 +118,7 @@ header img{
 
 
 #hero{
-	background-image: url("../img/full-2.jpg");
+	background-image: url("../img/banner camaleon morado-04.png");
 	background-position: top center;
 	background-size: cover;
 	padding: 10% 0;
@@ -159,6 +159,34 @@ header img{
 	border-color: var(--color-morado);
 }
 
+#introhistoria{
+	padding: 0% 0;
+	text-align: center;
+	color: var(--color-blanco);
+}
+
+#introhistoria .background{
+    background: url("../img/camaleon360 2-01.png");
+    position: relative;
+	width: 100%;
+	height: 500px;
+	background-position: center;
+}
+
+#introhistoria .layer{
+    background-color:rgba(100,182,97,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#introhistoria h2{
+	margin-top: 200px;
+	color: var(--color-blanco);
+}
+
 #mision{
 	padding: 5% 0;
 	text-align: center;
@@ -167,7 +195,7 @@ header img{
 }
 
 #mision h2{
-	margin: 35% 20% 0 20%;
+	margin: 30% 20% 0 20%;
 }
 
 #mision p{
@@ -175,18 +203,26 @@ header img{
 }
 
 #vision{
-	padding: 1% 0;
+	padding: 1% 0 5% 0;
 	text-align: center;
 	color: var(--color-blanco);
 	background-color: var(--color-morado);
 }
 
 #vision h2{
-	margin: 35% 20% 0 20%;
+	margin: 15% 20% 0 20%;
 }
 
 #vision p{
 	margin: 5% 20% 0 20%;
+}
+
+#mision img{
+	height: 500px;
+}
+
+#vision img{
+	height: 500px;
 }
 
 #servicios{
@@ -202,6 +238,10 @@ header img{
 
 #servicios .titulo3{
 	padding: 25px 0 0 0;
+}
+
+#servicios img{
+	height: 300px;
 }
 
 #contacto{
@@ -256,4 +296,12 @@ footer i{
 
 #quienes{
 	padding: 5% 0;
+}
+
+#marcas{
+	padding: 5% 0;
+}
+
+#marcas .row{
+	padding: 2% 0;
 }
