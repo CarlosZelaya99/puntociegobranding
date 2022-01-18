@@ -118,11 +118,11 @@ header img{
 
 
 #hero{
-	background-image: url("../img/banner camaleon morado-04.png");
+	background-image: url("../img/banner camaleones-04.png");
 	background-position: top center;
 	background-size: cover;
 	padding: 10% 0;
-	color:var(--color-morado);
+	color:var(--color-verde);
 	height: 200px;
 }
 
@@ -131,15 +131,23 @@ header img{
 	background-position: center;
 	background-size: cover;
 	padding: 10% 0;
-	color:var(--color-morado);
+	color:var(--color-verde);
+}
+
+#hero3{
+	background-image: url("../img/banner morado camaleon verde-05.png");
+	background-position: center;
+	background-size: cover;
+	padding: 10% 0;
+	color:var(--color-verde);
 }
 
 #hero h1,
 #hero-slides h1{
 	font-size: 50px;
 	margin-bottom: 20px;
-	font-weight: 300;
-	color:var(--color-morado);
+	font-weight: 600;
+	color:var(--color-verde);
 }
 #hero h3,
 #hero-slides h3{
