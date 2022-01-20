@@ -366,7 +366,7 @@ footer i{
 	padding: 2% 0;
 }
 
-#eventosinfo{
+#eventosinfo, #socialmedia, #socialmediaejemplos{
 	padding: 5% 0;
 }
 
@@ -374,9 +374,22 @@ footer i{
 	text-align: center;
 }
 
-#eventosinfo span{
+#eventosinfo span, #socialmedia span{
 	font-size: 18px;
 	color: var(--color-verde);
 	text-align: center;
 	font-weight: 600;
 }
+
+#eventosejemplos{
+	padding: 0 0 5% 0;
+}
+
+#socialmedia .titulo1{
+	margin-bottom: 50px;
+}
+
+#socialmedia .titulo2{
+	margin-top: 150px;
+}
+
